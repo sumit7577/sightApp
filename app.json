@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "sightApp",
+    "slug": "sightApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "sightApp"
+}
