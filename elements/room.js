@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import FontAwesome from "react-native-vector-icons/FontAwesome";
+import { useNavigation } from '@react-navigation/native';
 
 const item = [
     {
@@ -16,11 +17,13 @@ const item = [
 
 ]
 function Menu(props) {
+    const navigator = useNavigation();
     return (
         <View style={style.container}>
             <View style={style.buttons}>
                 <TouchableOpacity style={style.custom} onPress={() => {
-                    props.navigator.navigate("CreateRoom");
+                    //props.navigator.navigate("CreateRoom");
+                    navigator.navigate("StartCall");
                 }}>
                     <FontAwesome name={item[0].name} size={23} color={"white"} />
                 </TouchableOpacity>

@@ -46,23 +46,23 @@ const styles = StyleSheet.create({
     texts: {
         marginLeft: 10,
         color: "#efefef",
-        fontSize: 18,
-        fontWeight: "700",
+        fontSize: 14,
+        fontWeight: "600",
     },
     recents: {
-        marginTop: 25,
+        marginTop: 20,
         flexDirection: "row",
         alignItems: "center",
 
     },
     custom: {
-        height: 60,
-        width: 60,
+        height: 50,
+        width: 50,
         marginLeft: 10,
         borderRadius: 15,
         alignItems: "center",
         justifyContent: "center",
-        borderWidth:5,
+        borderWidth:2,
         borderColor: "thistle",
     },
 

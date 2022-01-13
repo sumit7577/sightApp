@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259292181083",
+    "project_id": "sight-app-dd59e",
+    "storage_bucket": "sight-app-dd59e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259292181083:android:cd628d9c8d1d85af2f857e",
+        "android_client_info": {
+          "package_name": "com.sightapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259292181083-655brf6fc3n0bl49th1kuvos37oleqm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjUJ-MKq5XuKhPrfhSObTBtiqY08KGK7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259292181083-655brf6fc3n0bl49th1kuvos37oleqm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -41,12 +41,12 @@ export default function NewRoom(props) {
             </View>
             <View style={styles.body}>
                 <TextInput
-                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 3, borderRadius: 14, padding: 10, backgroundColor: "white",color:"black", }}
+                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 2, borderRadius: 14, padding: 10, backgroundColor: "white",color:"black", }}
                     placeholder="Your Name:"
                     onChangeText={text => setText(text)}
                     defaultValue={text}
                 /><TextInput
-                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 3, borderRadius: 14, padding: 10, marginTop: 15, color: "white" }}
+                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 2, borderRadius: 14, padding: 10, marginTop: 15, color: "white" }}
                     placeholder="Meeting ID:"
                     editable={false}
                     defaultValue={meetingId}

@@ -24,12 +24,12 @@ export default function NewRoom() {
             </View>
             <View style={styles.body}>
                 <TextInput
-                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 3, borderRadius: 14, padding: 10, backgroundColor: "white",color:"black" }}
+                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 2, borderRadius: 14, padding: 10, backgroundColor: "white",color:"black" }}
                     placeholder="Your Name:"
                     onChangeText={text => setText(text)}
                     defaultValue={text}
                 /><TextInput
-                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 3, borderRadius: 14, padding: 10, marginTop: 15,backgroundColor: "white", color: "black" }}
+                    style={{ height: 50, borderColor: "#2470b9", borderWidth: 2, borderRadius: 14, padding: 10, marginTop: 15,backgroundColor: "white", color: "black" }}
                     placeholder="Meeting ID:"
                     keyboardType='numeric'
                     onChangeText={id=>setId(id)}
